@@ -14,9 +14,9 @@ var FormView = {
     console.log('click!');
     Parse.create(text); // sends message to server for storage and so other users can see it
     console.log(text);
-    // App.startSpinner();
-    // App.fetch(App.stopSpinner);
-    App.initialize();
+    App.startSpinner();
+    App.fetch(App.stopSpinner);
+    // App.initialize();
 
 
   },
